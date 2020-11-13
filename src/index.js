@@ -2,6 +2,8 @@ import React from 'react'
 ///inject in root div
 import ReactDom from 'react-dom'
 
+//CSS
+import './index.css'
 //JSX RULES:
 /*
 1. return single Element 
@@ -17,6 +19,7 @@ import ReactDom from 'react-dom'
 function Struktur(){
   return (
 
+    <div>
     <section>
     <div id="first_div">
     <h1 id="Title_of_Webpage">Welcome To My DEV Page.</h1>
@@ -24,18 +27,23 @@ function Struktur(){
     <p>My Languages: Javascript, C++ and Python</p>
     <Image_0/>
     </div>
-    <hr/>
+    </section>
+
+    <section>
     <div id="second_div">
     <h2>
     <p>My Projects</p>
     </h2>
     </div>
-    
-    <div id="thirt_div">
+    </section>
+
+    <section>
+    <div id="Projekte_">
+    <Projekt_1/>
     <Projekt_1/>
     </div>
-
     </section>
+    </div>
   )
  }; 
 
