@@ -1,12 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+///inject in root div
+import ReactDom from 'react-dom'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//stateless function "captial Letter => component"
+// always return JSX
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+ function Greeting(){
+  return (
+    <div>
+      <h4>Hello World!</h4>
+      
+    </div>
+  )
+ }; 
+
+/*
+const Greeting = () => {
+  return React.createElement('div',{},React.createElement('h1',{},'Hello world'));
+}*/
+
+ReactDom.render(<Greeting></Greeting>,document.getElementById('root'));
