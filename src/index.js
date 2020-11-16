@@ -19,31 +19,45 @@ import './index.css'
 function Struktur(){
   return (
 
-    <div>
-    <section>
-    <div id="first_div">
-    <h1 id="Title_of_Webpage">Welcome To My DEV Page.</h1>
+    <article id="article">
+
+    <center>
+    <section id="section_1">
+    <div>   
+    <h1>MY DEV PAGE</h1>
     <p>My name is Davon! You can find me on Discord. I build bots!</p>
     <p>My Languages: Javascript, C++ and Python</p>
     <Image_0/>
     </div>
     </section>
+    </center>  
 
-    <section>
-    <div id="second_div">
-    <h2>
-    <p>My Projects</p>
-    </h2>
-    </div>
-    </section>
-
-    <section>
+    <br/>
+    <br/>
+      <br/>
+    <br/>
+    <center>
+   
+    <section id="section_3">
+     
     <div id="Projekte_">
     <Projekt_1/>
-    <Projekt_1/>
+    </div>
+    <div id="Projekte_2">
+     <Projekt_2/>
+    </div>
+ 
+    </section>
+    </center>
+  
+    <section id="foot_notes">
+    <div>
+       
     </div>
     </section>
-    </div>
+    
+    
+    </article>
   )
  }; 
 
@@ -54,32 +68,64 @@ const Projekt_1 = () => {
   <Title_1/>
   <Image_1/>
   <Description_1/>
+  <div id="test2">
   <Github_1/>
   <Top_1/>
+  </div>
   </div>
 
   </article>)
 }
 
 
-//images
-const Image_0 = () => <img id="image" src="https://cdn.discordapp.com/attachments/776562672375431234/776895987355484256/Unbenannt.png" />
-const Image_1 = () => <img id="image" src="https://images.discordapp.net/avatars/681875101020454930/37b0585b54deb8c3f5507a5451e44161.png" />
+const Projekt_2 = () => {
+  return (<article>
 
+  <div>
+  <Title_2/>
+  <Image_2/>
+  <Description_2/>
+  <div id="test3">
+  <Github_2/>
+  <Top_2/>
+  
+  </div>
+
+  </div>
+
+  </article>)
+}
+
+
+
+//images
+const Image_0 = () => <center><img id="image" src="https://cdn.discordapp.com/attachments/776562672375431234/776895987355484256/Unbenannt.png" /></center>
+const Image_1 = () => <center><img id="image" src="https://images.discordapp.net/avatars/681875101020454930/37b0585b54deb8c3f5507a5451e44161.png" /></center>
+const Image_2 = () => <center><img id="image" width="130px;" height="132px;" src="https://cdn.discordapp.com/attachments/776562672375431234/776908457659465739/d41a679e3e9c340c7e4a21bd160aa468.png" /></center>
+const Image_3 = () => <center><img id="image"  src="https://top.gg/api/widget/681875101020454930.png" /></center>
 
 //Projekt_Title
-const Title_1 = () => <h3 id="Title_1">Anti Spam Discord Bot</h3>
-
+const Title_1 = () => <center><h3 id="Title_1">Anti Spam Discord Bot</h3></center>
+const Title_2 = () => <center><h3 id="Title_2">Learn Languages Bot, the Goose!</h3></center>
 
 //Description
 
-const Description_1 = () => <p id="description_1">Anti Raid & Bot tries to filter nsfw links. It mutes spamers.<br/>Besides, it is also a levelsystem bot.</p>
+const Description_1 = () => <div><p id="description_1">Anti Raid & Bot tries to filter nsfw links.</p><p> It mutes spamers. Besides, it is also a levelsystem bot.</p></div>
+
+const Description_2 = () => <div><p id="descrption_2"> Learn plenty of languages with our vocabulary quizes.</p><p> And! Use our translator and our country searcher.</p></div>
+
 
 
 //github link
 
-const Github_1 = () => <a id="github" href="https://github.com/AIZuerich/MY_ANTI_SPAM_BOT">Bot On Github<br/></a>
+const Github_1 = () => <a id="github" href="https://github.com/AIZuerich/MY_ANTI_SPAM_BOT">On Github<br/></a>
 const Top_1 = () => <a id="top" href="https://top.gg/bot/681875101020454930"> Bot On top.gg</a>
+
+
+const Github_2 = () => <a id="github" href="https://github.com/AIZuerich/languxagev001">On Github<br/></a>
+const Top_2 = () => <a id="top" href="https://top.gg/bot/710212974970798231"> Bot On top.gg</a>
+
+/*
 /*
 const Greeting = () => {
   return React.createElement('div',{},React.createElement('h1',{},'Hello world'));
