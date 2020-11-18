@@ -17,10 +17,13 @@ function Struktur(){
   return (
     
     <article>
-    <Nav/>
+     
     <Router>
-    <About/>
-    <Content/>
+      <Nav/>
+      <Switch>
+      <Route path="/about" component={About}/>
+      <Route path="/" component={Content}/>
+      </Switch>
     </Router>
     </article>
 

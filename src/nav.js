@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
 ///inject in root div
-import ReactDom from 'react-dom'
+import ReactDom from 'react-dom';
 //CSS
-import './index.css'
+import './index.css';
+
+import { Link } from 'react-router-dom';
 //JSX RULES:
 /*
 1. return single Element 
@@ -21,8 +23,12 @@ function Nav(){
     <article id="about_me">
     <div id="main">
     <ol>
+    <Link to="/">
     <li>Home</li>
+    </Link>
+    <Link to="/about">
     <li>About</li>
+    </Link>
     </ol>
     </div>
     </article>
