@@ -10,6 +10,8 @@ import './index.css'
 //route
 import About from './about.js';
 import Content from './content.js'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 function Struktur(){
   return (
     
