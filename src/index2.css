@@ -1,0 +1,36 @@
+            body{
+                background-color: #23272a;
+            }
+            .inblk{
+                display: inline-block;
+                position: relative;
+            }
+
+            .pp-rofile{
+                --w: 130px;
+                width: var(--w);
+                height: var(--w);
+
+                border-radius: 50%;
+                background-color: darkgray;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 3px solid #eee;
+            }
+
+            #chart{
+
+                height: 250px !important;
+                margin-bottom: 15px;
+
+            }
+
+            #ping{
+
+                height: 250px !important;
+
+            }
+
+          #bot-stats tr td:first-child(1){
+                background-color: #555;
+                color: white;

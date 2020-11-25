@@ -29,6 +29,9 @@ function Nav(){
     <Link to="/about">
     <li>About</li>
     </Link>
+    <Link to="/stats">
+    <li>Stats</li>
+    </Link>
     </ol>
     </div>
     </article>

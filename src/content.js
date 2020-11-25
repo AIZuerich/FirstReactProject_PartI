@@ -74,7 +74,7 @@ const Projekt_1 = () => {
 
   <div>
   <Title_1/>
-  <Image_1/>
+ 
   <Description_1/>
   <div id="test2">
 

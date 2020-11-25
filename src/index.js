@@ -9,6 +9,7 @@ import './index.css'
 
 //route
 import About from './about.js';
+import Stats from './stats.js';
 import Content from './content.js';
 import Nav from './nav.js';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -21,6 +22,7 @@ function Struktur(){
     <Router>
       <Nav/>
       <Switch>
+      <Route path="/stats" component={Stats}/>
       <Route path="/about" component={About}/>
       <Route path="/" component={Content}/>
       </Switch>

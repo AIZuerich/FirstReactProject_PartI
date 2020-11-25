@@ -30,7 +30,7 @@ function About(){
 Anti Spam function: My bot scans all messages and attachments for speed. If they are posted too fast by a user, they will be deleted. That's not all, even slow spams are deleted if the messages have the same length. The bot also scans the messages for NSFW links and other annoying links. Unfortunately this function is still very limited. One thing: Admins are ignored by the Anti Spam Bot.
 <br/>
 <br/>
-The Raid function: In the channel named welcome a password is required for the new users. Only the admin can activate this command.
+The Raid function: In the channel named "welcome" a password is required for the new users. Only the admin can activate this command.
 <br/>
 <br/>
 Plans: Better NSFW filter. Anti Virus Scanner for attachments.
